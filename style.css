@@ -171,3 +171,36 @@ header{
         transform: translateY(-300px) scaleX(10);
     }
 }
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    header{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .cup{
+        width: 200px;
+        height: 225px;
+    }
+
+    .plate{
+        width: 330px;
+        height: 150px;
+    }
+
+    .quote{
+        top: 10px;
+        font-size: 1rem;
+    }
+
+    .coffee{
+        top: 15px;
+    }
+
+    .handle{
+        right: -55px;
+        top: 10px;
+    }
+  }
